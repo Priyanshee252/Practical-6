@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>WanderGo Travels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <h1>WanderGo Travels</h1>
+    <form id="name-form" class="name-form">
+      <label for="visitor-name" class="visually-hidden">Your name</label>
+      <input type="text" id="visitor-name" placeholder="Your name (this session)" maxlength="30">
+      <button type="submit">Save</button>
+    </form>
+    <span id="greeting" class="greeting"></span>
+    <button type="button" id="theme-button" class="secondary">Dark theme</button>
+  </header>
+
+  <section class="promo" aria-live="polite">
+    <p id="promo-text"></p>
+    <p class="countdown">Offer ends in <strong id="countdown">--:--</strong></p>
+  </section>
+
+  <main>
+    <section class="packages">
+      <h2>Tour packages</h2>
+      <div class="toolbar">
+        <input type="text" id="search" placeholder="Search destinations" aria-label="Search destinations">
+        <select id="category" aria-label="Filter by category">
+          <option value="all">All categories</option>
+          <option value="Beach">Beach</option>
+          <option value="Mountain">Mountain</option>
+          <option value="Heritage">Heritage</option>
+          <option value="Nature">Nature</option>
+        </select>
+      </div>
+      <div id="status" class="status" role="status"></div>
+      <div id="package-grid" class="grid"></div>
+    </section>
+
+    <aside>
+      <section class="panel">
+        <h2>Selected destination</h2>
+        <div id="selected-panel"><p class="muted">No destination selected yet.</p></div>
+      </section>
+      <section class="panel">
+        <h2>Wishlist</h2>
+        <ul id="wishlist" class="plain-list"></ul>
+      </section>
+      <section class="panel">
+        <h2>Recently viewed (this session)</h2>
+        <ul id="recent" class="plain-list"></ul>
+      </section>
+      <button type="button" id="clear-button" class="secondary">Clear saved data</button>
+    </aside>
+  </main>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

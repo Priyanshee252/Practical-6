@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "Goa Beach Escape",
+    "destination": "Goa",
+    "days": 5,
+    "price": 18999,
+    "rating": 4.6,
+    "category": "Beach",
+    "emoji": "🏖️",
+    "colors": [
+      "#ffb347",
+      "#ff6f61"
+    ],
+    "highlights": [
+      "Baga and Calangute beaches",
+      "Sunset cruise",
+      "Old Goa churches"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Manali Snow Retreat",
+    "destination": "Himachal Pradesh",
+    "days": 6,
+    "price": 22999,
+    "rating": 4.7,
+    "category": "Mountain",
+    "emoji": "🏔️",
+    "colors": [
+      "#7fb2ff",
+      "#4b6cb7"
+    ],
+    "highlights": [
+      "Solang Valley",
+      "Rohtang Pass visit",
+      "Riverside camping"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Jaipur Heritage Trail",
+    "destination": "Rajasthan",
+    "days": 4,
+    "price": 15499,
+    "rating": 4.5,
+    "category": "Heritage",
+    "emoji": "🏰",
+    "colors": [
+      "#f6a6c1",
+      "#d4568a"
+    ],
+    "highlights": [
+      "Amber Fort",
+      "City Palace",
+      "Local bazaar walk"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kerala Backwaters",
+    "destination": "Kerala",
+    "days": 5,
+    "price": 24999,
+    "rating": 4.8,
+    "category": "Nature",
+    "emoji": "🛶",
+    "colors": [
+      "#6fd6a6",
+      "#1f8a70"
+    ],
+    "highlights": [
+      "Alleppey houseboat",
+      "Munnar tea gardens",
+      "Ayurvedic spa"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Leh Ladakh Adventure",
+    "destination": "Ladakh",
+    "days": 7,
+    "price": 34999,
+    "rating": 4.9,
+    "category": "Mountain",
+    "emoji": "🏍️",
+    "colors": [
+      "#b79cff",
+      "#5a4fcf"
+    ],
+    "highlights": [
+      "Pangong Lake",
+      "Nubra Valley",
+      "Monastery visits"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Andaman Island Escape",
+    "destination": "Andaman",
+    "days": 6,
+    "price": 29999,
+    "rating": 4.7,
+    "category": "Beach",
+    "emoji": "🤿",
+    "colors": [
+      "#5ad1e6",
+      "#1b7fc4"
+    ],
+    "highlights": [
+      "Radhanagar beach",
+      "Scuba diving",
+      "Cellular Jail light show"
+    ]
+  }
+]
